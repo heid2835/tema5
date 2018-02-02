@@ -1,0 +1,33 @@
+                                                                                                                                                                                        body {
+                                                                                                                                                                                        margin: 0;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    img {
+                                                                                                                                                                                        max-width: 100%;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    .ret {}
+
+                                                                                                                                                                                    h2 {
+                                                                                                                                                                                        font-size: 1em;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    h1 {
+                                                                                                                                                                                        font-size: 2em;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    .liste {
+                                                                                                                                                                                        display: grid;
+                                                                                                                                                                                        grid-template-columns: 1fr;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    @media screen and (min-width: 445px) {
+                                                                                                                                                                                        .liste {
+                                                                                                                                                                                            grid-template-columns: 1fr 1fr;
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    @media screen and (min-width: 445px) {
+                                                                                                                                                                                        .liste {
+                                                                                                                                                                                            grid-template-columns: repeat(3, 1fr);
+                                                                                                                                                                                        }

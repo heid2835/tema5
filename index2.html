@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Babushka</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header><img src="imgs/" alt=""></header>
+    <nav><button id="filter-alle">Alle</button>
+        <button id="filter-forretter">Forretter</button>
+        <button id="filter-hovedretter">Hovedretter</button>
+        <button id="filter-desserter">Desserter</button>
+        <button id="filter-drikkevarer">Drikkevarer</button>
+        <button id="filter-sideorders">Sideorders</button>
+    </nav>
+    <main>
+        <h1 id="overskift" data-overskift>Menu</h1>
+        <section id="menu-container" data-container class="liste"></section>
+    </main>
+
+    <template class="menutemplate" data-template>
+        <article>
+            <div class="ret">
+                <h1 class="info" data-navn></h1>
+                <h2>Pris: <span class="info" data-pris></span>,-</h2>
+                <h3 class="info" data-kortbeskrivelse></h3>
+                <img src="" alt="" class="info" data-billede>
+                <p class="info" data-langbeskrivelse></p>
+                <b><p class="info" data-oprindelsesregion></p></b>
+    </div></article></template>
+
+    <footer>
+        <section><address>Adresse:<br>Grønnegade 97<br>1234 København K</address>
+            <aside>Åbningstider:<br>Mandag-fredag 10:30- 22:00<br>Lørdag 12:00-23:00</aside>
+        </section>
+    </footer>
+    <script src="js/getJsonStart2.js"></script>
+</body>
+
+</html>
